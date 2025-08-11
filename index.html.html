@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucent International - Social Media Strategy Questionnaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- Header -->
+        <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <div class="text-center">
+                <h1 class="text-3xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-chart-line text-blue-600 mr-3"></i>
+                    Lucent International
+                </h1>
+                <h2 class="text-xl text-gray-600 mb-2">Social Media Strategy Assessment</h2>
+                <p class="text-gray-500">Please complete this questionnaire to help us develop your social media strategy across Saudi Arabia, Jordan, and Qatar.</p>
+            </div>
+        </div>
+
+        <!-- Form -->
+        <form id="questionnaire" class="space-y-8">
+            <!-- Company Information -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6 border-b pb-3">
+                    <i class="fas fa-building text-blue-600 mr-2"></i>
+                    Company Information
+                </h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Company Name</label>
+                        <input type="text" name="company_name" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Contact Person</label>
+                        <input type="text" name="contact_person" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                        <input type="email" name="email" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                        <input type="tel" name="phone" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Saudi Arabia Section -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6 border-b pb-3">
+                    🇸🇦 Saudi Arabia Market
+                </h3>
+                
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Main Competitors in Saudi Arabia</label>
+                        <textarea name="competitors_saudi" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="List your main competitors in the Saudi market..."></textarea>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Peak Business Seasons in Saudi Arabia</label>
+                        <div class="grid md:grid-cols-3 gap-3">
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_saudi" value="ramadan" class="rounded border-gray-300">
+                                <span class="text-sm">Ramadan</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_saudi" value="eid_fitr" class="rounded border-gray-300">
+                                <span class="text-sm">Eid Al-Fitr</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_saudi" value="eid_adha" class="rounded border-gray-300">
+                                <span class="text-sm">Eid Al-Adha</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_saudi" value="national_day" class="rounded border-gray-300">
+                                <span class="text-sm">National Day</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_saudi" value="founding_day" class="rounded border-gray-300">
+                                <span class="text-sm">Founding Day</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_saudi" value="summer" class="rounded border-gray-300">
+                                <span class="text-sm">Summer</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-3">Monthly Events/Holidays in Saudi Arabia</label>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <input type="text" name="saudi_january" placeholder="January events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_february" placeholder="February events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_march" placeholder="March events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_april" placeholder="April events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_may" placeholder="May events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_june" placeholder="June events..." class="w-full p-2 border border-gray-300 rounded">
+                            </div>
+                            <div class="space-y-2">
+                                <input type="text" name="saudi_july" placeholder="July events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_august" placeholder="August events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_september" placeholder="September events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_october" placeholder="October events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_november" placeholder="November events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="saudi_december" placeholder="December events..." class="w-full p-2 border border-gray-300 rounded">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Service Priority in Saudi Arabia</label>
+                        <select name="service_priority_saudi" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <option value="">Select primary service focus...</option>
+                            <option value="audit">Audit Services</option>
+                            <option value="tax_zakat">Tax & Zakat Advisory</option>
+                            <option value="consultation">Business Consultation</option>
+                            <option value="technology">Technology Solutions</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jordan Section -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6 border-b pb-3">
+                    🇯🇴 Jordan Market
+                </h3>
+                
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Main Competitors in Jordan</label>
+                        <textarea name="competitors_jordan" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="List your main competitors in the Jordan market..."></textarea>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Peak Business Seasons in Jordan</label>
+                        <div class="grid md:grid-cols-3 gap-3">
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_jordan" value="ramadan" class="rounded border-gray-300">
+                                <span class="text-sm">Ramadan</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_jordan" value="eid_fitr" class="rounded border-gray-300">
+                                <span class="text-sm">Eid Al-Fitr</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_jordan" value="eid_adha" class="rounded border-gray-300">
+                                <span class="text-sm">Eid Al-Adha</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_jordan" value="independence_day" class="rounded border-gray-300">
+                                <span class="text-sm">Independence Day</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_jordan" value="spring" class="rounded border-gray-300">
+                                <span class="text-sm">Spring Season</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_jordan" value="back_to_school" class="rounded border-gray-300">
+                                <span class="text-sm">Back to School</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-3">Monthly Events/Holidays in Jordan</label>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <input type="text" name="jordan_january" placeholder="January events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_february" placeholder="February events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_march" placeholder="March events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_april" placeholder="April events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_may" placeholder="May events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_june" placeholder="June events..." class="w-full p-2 border border-gray-300 rounded">
+                            </div>
+                            <div class="space-y-2">
+                                <input type="text" name="jordan_july" placeholder="July events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_august" placeholder="August events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_september" placeholder="September events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_october" placeholder="October events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_november" placeholder="November events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="jordan_december" placeholder="December events..." class="w-full p-2 border border-gray-300 rounded">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Service Priority in Jordan</label>
+                        <select name="service_priority_jordan" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <option value="">Select primary service focus...</option>
+                            <option value="audit">Audit Services</option>
+                            <option value="tax_zakat">Tax & Zakat Advisory</option>
+                            <option value="consultation">Business Consultation</option>
+                            <option value="technology">Technology Solutions</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Qatar Section -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6 border-b pb-3">
+                    🇶🇦 Qatar Market
+                </h3>
+                
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Main Competitors in Qatar</label>
+                        <textarea name="competitors_qatar" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="List your main competitors in the Qatar market..."></textarea>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Peak Business Seasons in Qatar</label>
+                        <div class="grid md:grid-cols-3 gap-3">
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_qatar" value="ramadan" class="rounded border-gray-300">
+                                <span class="text-sm">Ramadan</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_qatar" value="eid_fitr" class="rounded border-gray-300">
+                                <span class="text-sm">Eid Al-Fitr</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_qatar" value="eid_adha" class="rounded border-gray-300">
+                                <span class="text-sm">Eid Al-Adha</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_qatar" value="national_day" class="rounded border-gray-300">
+                                <span class="text-sm">Qatar National Day</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_qatar" value="winter" class="rounded border-gray-300">
+                                <span class="text-sm">Winter Season</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="peak_seasons_qatar" value="sports_season" class="rounded border-gray-300">
+                                <span class="text-sm">Sports Season</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-3">Monthly Events/Holidays in Qatar</label>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <input type="text" name="qatar_january" placeholder="January events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_february" placeholder="February events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_march" placeholder="March events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_april" placeholder="April events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_may" placeholder="May events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_june" placeholder="June events..." class="w-full p-2 border border-gray-300 rounded">
+                            </div>
+                            <div class="space-y-2">
+                                <input type="text" name="qatar_july" placeholder="July events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_august" placeholder="August events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_september" placeholder="September events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_october" placeholder="October events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_november" placeholder="November events..." class="w-full p-2 border border-gray-300 rounded">
+                                <input type="text" name="qatar_december" placeholder="December events..." class="w-full p-2 border border-gray-300 rounded">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Service Priority in Qatar</label>
+                        <select name="service_priority_qatar" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <option value="">Select primary service focus...</option>
+                            <option value="audit">Audit Services</option>
+                            <option value="tax_zakat">Tax & Zakat Advisory</option>
+                            <option value="consultation">Business Consultation</option>
+                            <option value="technology">Technology Solutions</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Platform Preferences -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6 border-b pb-3">
+                    <i class="fas fa-share-alt text-blue-600 mr-2"></i>
+                    Social Media Platform Preferences
+                </h3>
+                
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-3">Which platforms are most important for your business?</label>
+                        <div class="grid md:grid-cols-3 gap-4">
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="platforms" value="meta" class="rounded border-gray-300">
+                                <span class="text-sm">Meta (Facebook/Instagram)</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="platforms" value="google" class="rounded border-gray-300">
+                                <span class="text-sm">Google Ads</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="platforms" value="linkedin" class="rounded border-gray-300">
+                                <span class="text-sm">LinkedIn</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="platforms" value="twitter" class="rounded border-gray-300">
+                                <span class="text-sm">X (Twitter)</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="platforms" value="snapchat" class="rounded border-gray-300">
+                                <span class="text-sm">Snapchat</span>
+                            </label>
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" name="platforms" value="tiktok" class="rounded border-gray-300">
+                                <span class="text-sm">TikTok</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Target Audience Description</label>
+                        <textarea name="target_audience" rows="4" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Describe your ideal clients (company size, industry, decision makers, etc.)"></textarea>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Additional Comments or Specific Requirements</label>
+                        <textarea name="additional_comments" rows="4" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Any additional information that would help us create your social media strategy..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center">
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition duration-300 text-lg shadow-lg">
+                    <i class="fas fa-paper-plane mr-2"></i>
+                    Submit Questionnaire
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Success Message -->
+    <div id="success-message" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+        <div class="bg-white rounded-lg p-8 max-w-md mx-4 text-center">
+            <i class="fas fa-check-circle text-green-500 text-5xl mb-4"></i>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">Thank You!</h3>
+            <p class="text-gray-600 mb-4">Your questionnaire has been submitted successfully. We will contact you soon with your customized social media strategy.</p>
+            <button onclick="location.reload()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">
+                Submit Another Response
+            </button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('questionnaire').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show success message
+            document.getElementById('success-message').classList.remove('hidden');
+            
+            // Here you can add form submission logic
+            // For example, sending data to a server or email service
+            
+            // For now, we'll just show the success message
+            // In a real implementation, you would integrate with a form service
+            // like Formspree, Netlify Forms, or EmailJS
+        });
+
+        // Close success message when clicking outside
+        document.getElementById('success-message').addEventListener('click', function(e) {
+            if (e.target === this) {
+                this.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDtoKV5ETipoAhVWRDvbQRiJPePofIFHx0R%2BjtlybXv61cS8I3KJtOauxUmKQp%2Fh4Alk1%2FnKwNYJxP05ky0ci2t0xWP956UcgnWWD5LIji4Ms6rskYNV8SHmQhNTljjl%2FDWe9Mnp5upk6vjmY%2FUr9cBwdODXRrXizaIpGnMP0GxsGUxrrkgnPCtbq5IulSfXZ0%2Fwh3vDRMyjYfYLT9tXYpeLgd4qdHg1AnFH%2BUBOjV3tRDMnyqEqBERuB1U%2FrRFBiBsPRWLxzdjEnnUjf%2Fs13HzeHjhNMRF7x2OgJaA1kntOn1rRteQ790uZHIPtO4Lj2%2FEdcXOgttbWKvqwg%2BQS0YYa25CciOB%2FI37LkwcN1faJJutaF8eAgvQWgu4uudVxRRjvfxmdj7ktO1aNZvBfm3735z3L3HNRJh%2F%2FhHQ3kzoP7SDitZDsYUVfDxAaLX8W%2FrYYrL%2Bexr50DWlAWwEdXOIwOoAUmwtXZBlRNfau9ObOANkVuiBUfQnDcalLvptm9OA%3D%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDtoKV5ETipoAhVWRDvbQRiJPePofIFHx0R+jtlybXv61cS8I3KJtOauxUmKQp/h4Alk1/nKwNYJxP05ky0ci2t0xWP956UcgnWWD5LIji4Ms6rskYNV8SHmQhNTljjl/DWe9Mnp5upk6vjmY/Ur9cBwdODXRrXizaIpGnMP0GxsGUxrrkgnPCtbq5IulSfXZ0/wh3vDRMyjYfYLT9tXYpeLgd4qdHg1AnFH+UBOjV3tRDMnyqEqBERuB1U/rRFBiBsPRWLxzdjEnnUjf/s13HzeHjhNMRF7x2OgJaA1kntOn1rRteQ790uZHIPtO4Lj2/EdcXOgttbWKvqwg+QS0YYa25CciOB/I37LkwcN1faJJutaF8eAgvQWgu4uudVxRRjvfxmdj7ktO1aNZvBfm3735z3L3HNRJh//hHQ3kzoP7SDitZDsYUVfDxAaLX8W/rYYrL+exr50DWlAWwEdXOIwOoAUmwtXZBlRNfau9ObOANkVuiBUfQnDcalLvptm9OA==";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    
